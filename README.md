@@ -1,9 +1,11 @@
-# Emergency Ventilator
+# Emergency Ventilator C
+
+*CURRENT STATE: Project definition*
 
 Is a response to the COVID-19 coronavirus response in 2019-2020 for the urgent global need for medical ventilators.
 This software can be used and modified freely for non-commercial use under the GPL v3 license.
 
-*CURRENT STATE: Project definition*
+Code is written in C so it is suitable for most microcontrollers.
 
 Please be aware that it is very much still a work in progress and any help would be much appreciated:
 - Pulmonologists / doctor with experience of ARDS / ventilators
@@ -32,3 +34,5 @@ The software is modular and will cover:
 
 UI will probably not be part of this software, so that his software can be installed on bare microcontrollers and interfaced
 with other devices capable of displaying UI (graphs, mode, volume, pressure, flow, peep controls).
+
+Target devices: Raspberry PI, ESP32, Arduino 
