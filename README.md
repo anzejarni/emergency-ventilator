@@ -1,6 +1,6 @@
 # Emergency Ventilator
 
-Is a response to the COVID-19 coronavirus response in 2019-2020 for the urgent global need of medical ventilators.
+Is a response to the COVID-19 coronavirus response in 2019-2020 for the urgent global need for medical ventilators.
 This software can be used and modified freely for non-commercial use under the GPL v3 license.
 
 *CURRENT STATE: Project definition*
@@ -23,7 +23,7 @@ of safety.
 
 The software is modular and will cover:
 - Sensors (pressure, flow, voltage, possibly O2, CO2)
-- Actuator (inspiration valve, expiration valve, pressure generator)
+- Actuators (inspiration valve, expiration valve, pressure generator)
 - Breathing algorithms (Pressure Control, Volume Control, Pressure Asist, Volume Asist,...)
 - Alarms (pressure, volume, voltage, plateau pressure, loose hose, obstruction, breath stacking)
 - Testing Suite (desired volume, desired pressure, desired flow)
