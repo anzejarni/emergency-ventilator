@@ -13,6 +13,7 @@ Please be aware that it is very much still a work in progress and any help would
 - Embedded engineers
 - UI/UX designers
 - Hardware hackers
+- Certification/patent experts
 
 Message me on anze.jarni@codeart.si
 
