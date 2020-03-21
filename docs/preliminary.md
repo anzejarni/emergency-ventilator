@@ -1,0 +1,65 @@
+- Sensor data acquisition API
+- Pressure generator API (constant - compressor, variable - bag)
+- Control algorithms
+- Alarm algorithms
+- User Interface
+
+- Pressure Generation
+	- Constant with mechanical valve
+	- Constant with electrical valve (not recommended)
+	- Variable (valve)
+
+- Sensors
+	- Pressure (converted to cm H2O)
+	- Flow ()
+
+
+	- Recalculations
+		- Pressure: cm Hg, cm H20, PSI, mbar
+		- Flow: 
+
+	- Data
+		- Setup
+			- Rate (br/min)
+			- Tidal Volume (ml)
+			- IPAP (Initial pressure in cm H2O)
+			- EPAP (Expiratory pressure in cm H2O)
+			- FiO2 (%)
+			- PEEP (mm Hg)
+			- IFR (Inspiratory Flow Rate in L/min - 60L/min normally, 80-100L/min COPD)
+			- EFR (Expiratory Flow Rate in L/min - 60L/min normally, 80-100L/min COPD)
+		- Measured (MAX and MIN validation)
+			- Pressure (in)
+			- Flow (in)
+			- Pressure (out)
+			- Flow (out)
+			- O2
+			- CO2 (additional)
+			- Voltage (additional)
+		- Calculated (MAX and MIN validation)
+			- Peak pressure (max point)
+			- Plateau pressure (point constant in specific time after starting exhalation)
+			- Peep pressure (point constant in specific time after exhalation)
+			- Lung compliance (difference in changing pressure towards volume change)
+		- Timers (MAX and MIN validation)
+			- Breath length in milis
+			- Breath not made for x milis
+			- Plateau pressure (triggered at exhaust, 0.5-1.5 sec, measurement point of constant pressure)
+		- Automatic shutdowns - failsafes (different thread)
+			- Volume limit
+			- Pressure limit
+		- ALARMS
+			- Loose hose (flow at maximum but no pressure)
+			- Obstruction (pressure but no flow)
+			- Breath stacking
+			- High Plateau pressure
+			- Low Plateau pressure
+			- Lung incompliance (high pressure, low volume)
+			- Low battery warning
+			- Incomplete breath (no exhalation)
+			- Low CO2 level
+			- High CO2 level
+			- Inhalation to Exhalation ratio (normally 1:3)
+			- Detectors:
+				- COPD (high CO2 levels, long exhalation)
+				- ARDS (high pressure, low volume - incompliant lung)
