@@ -5,10 +5,16 @@ Sound is essential for warning the medical personnel and should be heard even in
 - Sound generating hardware component (siren, speaker) should be installed directly near the control unit
 - Visual alarm can be received via the UI API
 
-## Alarm types
+## Sound generated alarm types
+- Notice (user has triggered specific function - one time alarm)
+- Alarm (specific change in the system where medical team needs to be warned - periodical alarm)
+- Critical (critical change in the system where immediate medical response is needed - constant alarm)
+
+## Alarm trigger types
 There are two types of alarms:
 - Automatic alarms (alarms triggered by abnormal states such as breath stacking, breath not taken/given, etc.)
 - User set alarms (set by medical personnel)
+- User triggered alarms (due to enabling/disabling specific function)
 
 ### Automatic alarms
 - Breath not taken/give for X seconds
