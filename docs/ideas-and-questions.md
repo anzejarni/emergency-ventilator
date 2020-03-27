@@ -13,3 +13,4 @@ This document is intended for new ideas and questions that need to be resolved w
 - Can someone check the limits document?
 - Can someone check the hardware document and give advice?
 - What is the percent in Circuit Compliance Compensation? Should it be a setting in percent?
+- Should PID be used in controlling algorithms (especially to avoid pressure overshooting)?

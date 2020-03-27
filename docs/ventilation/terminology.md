@@ -1,5 +1,5 @@
 # Terminology
-# IPPV
+# IPPV (Inspiratory Positive Pressure Ventilation)
 # A/C (Asist Control)
 # PC (Pressure Control)
 # VC (Volume Control)

@@ -34,3 +34,7 @@ The flow meter should have a fast reading (ms order)
 - Minimum pressure: 0 cm H2O = 0 milibar = 0 psi
 - Maximum pressure: 40 cm H2O = 39.2266 milibar = 0,5689337333714 psi
 - Resolution: 1 cm H2O = 0.98067 millibar = 0,014223343334285 psi
+
+# Safety
+- Default open inspiratory valve (allow the patient to breath if HW/SW fails)
+- Pressure release valves on inspiratory and expiratory limb of the system (to avoid overpressure in the lungs)

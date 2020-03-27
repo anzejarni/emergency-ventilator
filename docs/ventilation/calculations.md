@@ -11,3 +11,6 @@ C' = delta V (change in volume) / delta P (change in pressure)
 
 # Flow (Q)
 Q (Flow) = V (Volume) / t (time)
+
+# Leak Volume (also breath stacking?)
+Leak [mL] = Inspiratory Volume [mL] - Expiratory Volume [mL]
